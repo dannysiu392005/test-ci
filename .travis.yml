@@ -9,4 +9,4 @@ addons:
 install:
   - npm install
 script:
-  - npm run test:unit && npm run test:snapshot && npm run cypress:run
+  - npm run test && npm run cypress:run
