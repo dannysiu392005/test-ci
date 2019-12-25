@@ -1,6 +1,7 @@
 /// <reference types="Cypress" />
 describe('Home', () => {
   it('should render a logo', () => {
-    expect(true).to.equal(true)
+    cy.visit('/')
+    cy.get('.App-logo').should('exist')
   })
 })
